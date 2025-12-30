@@ -4,8 +4,8 @@ id_pattern = re.compile(r'^.\d+$')
 
 API_ID = os.environ.get("API_ID", "30775734")
 API_HASH = os.environ.get("API_HASH", "b7d8ccaedaac68008d12e3ee7f5ae867")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8566325870:AAFQfTlvFz8C60kZLJCFdFKcvRIGJxMS5TY") 
-#TOKEN_ONE = os.environ.get("TOKEN_ONE", "")
+#BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+TOKEN_ONE = os.environ.get("TOKEN_ONE", "8566325870:AAFQfTlvFz8C60kZLJCFdFKcvRIGJxMS5TY")
 
 CHANNEL = os.environ.get("CHANNEL", "Ronituniverse") # username without '@'
 BOT_USERNAME = os.environ.get("BOT_USERNAME","Ronits_file_renameer_bot") # username without '@'
